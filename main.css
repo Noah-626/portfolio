@@ -654,12 +654,17 @@ form input, form textarea{
     .projectImg{
         width: 100%;
         height: 300px;
+        margin-top: 20px;
     }
 
     .projects .projectDes{
         font-size: small;
     }
 
+    .projectDes{
+        margin-top: 20px;
+    }
+    
     #projectBox{
         width: 100%;
     }

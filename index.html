@@ -16,8 +16,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             <div id="logo">
                 <i class="fa-solid fa-leaf icon" style="margin-top: 5px;"></i>
                 <h5><a class="underline" href="#top">Nhu Nam Nguyen</a></h5>
-                
             </div>
+           
             <ul class="sidebar">
                 <li onclick=hideSidebar()>
                     <h5 class="underline"><i class="fa-solid fa-xmark"></i></h5>
@@ -29,13 +29,14 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <a class="button1" href="resume/Resume (1).pdf" download>Resume <i class="fa-solid fa-download"></i></a>
             </ul>
             <ul class="section-links">
+                <li style="list-style: none;" class="hideOnPc" onclick=showSidebar()>
+                    <h5><a href="#" class="underline"><i class="fa-solid fa-bars"></i></a></h5>
+                </li>
                 <li class="hideOnMobile"><h5> <a class="underline" href="#aboutMe">About Me</a></h5></li>
                 <li class="hideOnMobile"><h5> <a class="underline" href="#mySkills">Skills</a> </h5></li>
                 <li class="hideOnMobile"><h5> <a class="underline" href="#myProjects">Projects</a> </h5></li>
                 <li class="hideOnMobile"><h5> <a class="underline" href="#contact">Contact Me</a> </h5> </li>
-                <li style="list-style: none;" class="hideOnPc" onclick=showSidebar()>
-                    <h5><a href="#" class="underline"><i class="fa-solid fa-bars"></i></a></h5>
-                </li>
+                
             </ul>
             <a class="button1 hideOnMobile" href="resume/Resume (1).pdf" download>Resume <i class="fa-solid fa-download"></i></a>
         </nav>
@@ -149,7 +150,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         <h2 style="font-size: xx-large;">My Projects</h2>
         <div id="projectBox">
             <div class="projects">
-                <img src="img/C4-connect-four-simple-game.png" class="projectImg" style="" salt="">
+                <!-- <img src="img/C4-connect-four-simple-game.png" class="projectImg" alt=""> -->
                 <div class="projectDes">
                     <h4>01</h4>
                     <h5>Connect 4</h5>
@@ -158,12 +159,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                         AI—the game provides versatility for users to challenge friends
                         or test their skills against a computer opponent</p>
                     <div class="buttonLinkToRepo">
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i><span style="font-weight: 500; margin-left: 5px;">Link To Repository</span></a>
                     </div>
                 </div>
             </div>
             <div class="projects">
-                <img src="img/C4-connect-four-simple-game.png" class="projectImg" salt="">
+                <!-- <img src="img/C4-connect-four-simple-game.png" class="projectImg" salt=""> -->
                 <div class="projectDes">
                     <h4>02</h4>
                     <h5>Project Management</h5>
@@ -172,20 +173,20 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                         or products according to their preferences. The user-friendly interface enhances the overall browsing and booking experience,
                         allowing users to filter search results, view detailed information, and make reservations with ease.</p>
                     <div class="buttonLinkToRepo">
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i><span style="font-weight: 500; margin-left: 5px;">Link To Repository</span></a>
                     </div>
                 </div>
             </div>
             <div class="projects">
-                <img src="img/C4-connect-four-simple-game.png" class="projectImg" salt="">
+                <!-- <img src="img/C4-connect-four-simple-game.png" class="projectImg" salt=""> -->
                 <div class="projectDes">
                 <h4>03</h4>
                 <h5>Portfolio Website</h5>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus placeat ea rerum obcaecati veritatis.
                      Aspernatur libero cumque animi vero quas, asperiores repellat repudiandae veniam totam temporibus atque hic est molestias!
-                    </p>
+                </p>
                     <div class="buttonLinkToRepo">
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i><span style="font-weight: 500; margin-left: 5px;">Link To Repository</span></a>
                     </div>
                 </div>
             </div>

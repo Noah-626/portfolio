@@ -527,6 +527,7 @@ form input, form textarea{
     .hideOnPc{
         display: block;
         margin-left: 20em;
+        margin-right: 32px;
     }
 
     .sidebar {

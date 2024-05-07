@@ -526,7 +526,7 @@ form input, form textarea{
 
     .hideOnPc{
         display: block;
-        margin-left: 20em;
+        margin-left: 17em;
         margin-right: 32px;
     }
 
@@ -537,12 +537,18 @@ form input, form textarea{
     }
 
     .sidebar li{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: 20px;
 
     }
 
+    .sidebar li h5{
+        font-size: xx-large;
+    }
+
     .sidebar .button1{
+        width: 150px;
+        font-size: 15px;
         display: block;
         margin-top: 40px;
         margin-left: 20px;

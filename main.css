@@ -651,6 +651,8 @@ form input, form textarea{
     #myProjects{
         margin-top: 50px;
         width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .projects{
@@ -674,6 +676,7 @@ form input, form textarea{
     
     #projectBox{
         width: 100%;
+        
     }
 
     #contact{

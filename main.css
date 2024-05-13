@@ -343,7 +343,6 @@ body {
 .projects{
     display: flex;
     margin: 100px;
-    
 }
 
 .projects h4{
@@ -365,6 +364,7 @@ body {
 .projectDes{
     display: flex;
     flex-direction: column;
+    
 }
 
 .buttonLinkToRepo a{
@@ -379,7 +379,7 @@ body {
 }
 
 .imageProject{
-    width: 594px;
+    width: 465px;
     height: 476px;
     border: 2px solid black;
 }
@@ -516,7 +516,10 @@ form input, form textarea{
 }
 
 .projectImg{
-    width: 594px; height: 476px;
+    width: 467px; height: 476px;
+    margin-right: 20px;
+    border: 2px solid black;
+    
 }
 @media (max-width: 500px){
 
